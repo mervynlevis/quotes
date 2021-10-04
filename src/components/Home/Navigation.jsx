@@ -11,8 +11,8 @@ function Navigation() {
               <ChatBubbleIcon className="logo" />
               Quotes
             </Navbar.Brand>
-            <Link to="/kanye">Kanye West</Link>
-            <Link to="/swanson">Ron Swanson</Link>
+            <Link className="navLink" to="/kanye">Kanye West</Link>
+            <Link className="navLink" to="/swanson">Ron Swanson</Link>
           </Navbar>
         </div>
     );

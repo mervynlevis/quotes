@@ -12,6 +12,10 @@
 
 /* HOME PAGE  */
 
+.navLink {
+  margin-left: 1%;
+}
+
 .homeOptions {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -61,7 +65,6 @@
   padding: 2% 10% 2% 10%;
 }
 
-
 /* FOOTER  */
 .footer {
   background-color: darkgray;
@@ -94,10 +97,12 @@
     font-size: 1.9em;
   }
   .card-subtitle {
-    font-size: 1.7em
+    font-size: 1.7em;
   }
   .card-body {
-    font-size: .8em;
+    font-size: 0.8em;
+  }
+  .homeOptions {
+    grid-template-columns: 1fr;
   }
 }
-
