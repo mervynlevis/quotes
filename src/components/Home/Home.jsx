@@ -4,12 +4,12 @@ function Home() {
   return (
     <div className="home">
       <div className="homeOptions">
-        <a href="/quotes/kanye">
+        <a href="/kanye">
           {" "}
           <div className="homeLeft"></div>
         </a>
 
-        <a href="/quotes/swanson">
+        <a href="/swanson">
           {" "}
           <div className="homeRight"></div>
         </a>
