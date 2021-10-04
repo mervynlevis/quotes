@@ -1,0 +1,84 @@
+/* quote component  */
+
+.swanson {
+  background-color: #dddddd;
+  padding-bottom: 5%;
+  height: 80vh;
+  background-image: url("../../images/swanson.png");
+  background-repeat: no-repeat;
+  padding-top: 10%;
+}
+
+.swansonImg {
+  position: relative;
+  height: 300px;
+  width: auto;
+}
+
+.swansonCard {
+  border: 3px solid #3c8dad;
+  /* border-radius: 25px; */
+  background-color: #f5a962;
+}
+
+.quote {
+  color: #125d98;
+  margin: 0% 5% 5%;
+  padding: 10% 2.5%;
+  border: 3px solid #3c8dad;
+  border-radius: 25px;
+  background-color: #f5a962;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+}
+
+.refreshBtn {
+  color: #f5a962;
+  background-color: #125d98;
+  /* border: 3px solid #125d98; */
+  /* border-radius: 25px; */
+  padding: 1%;
+  margin-top: 10%;
+}
+
+.refreshBtn {
+  transition-duration: 0.4s;
+}
+
+.refreshBtn:hover {
+  color: white;
+}
+
+/* footer component  */
+.footer {
+  font-family: "Montserrat", sans-serif;
+  margin: 0%;
+  padding: 2.5% 0%;
+}
+
+.footer p {
+  margin: 0%;
+}
+/* 
+
+
+.social-icon:hover {
+  background-color: #fff;
+}
+
+/* responsive css */
+@media screen and (min-width: 1000px) {
+  .swanson {
+    padding-top: 5%;
+  }
+  .quote {
+    margin: 0% 30% 2%;
+    padding: 5%;
+  }
+  .swansonImg {
+    height: 200px;
+  }
+  .refreshBtn {
+    margin-top: 1%;
+  }
+}

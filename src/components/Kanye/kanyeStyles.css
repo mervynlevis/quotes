@@ -1,0 +1,59 @@
+.kanye {
+  background-image: url(../../images/kanyehands.webp);
+  background-size: contain;
+}
+
+.card {
+  text-align: center;
+  margin: 0% 30% 4% 30%;
+  /* opacity: 0.8; */
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card-content {
+  text-align: center;
+  padding-top: 0;
+}
+
+.date-text {
+  padding: 1% 0 10% 0;
+}
+
+.btn {
+  margin: 10% 0 0 0;
+}
+
+.logo {
+  margin-right: 5%;
+}
+
+.card-body {
+  padding: 2% 10% 2% 10%;
+}
+
+.footer > p,
+.footer-link {
+  color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+  .kanye {
+    background-size: cover;
+  }
+  .card {
+    margin: 4% 15% 4% 15%;
+  }
+  .card-title {
+    font-size: 1.9em;
+  }
+  .card-subtitle {
+    font-size: 1.7em
+  }
+  .card-body {
+    font-size: .8em;
+  }
+}

@@ -2,37 +2,102 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* PROPORTIONS */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.kanye,
+.swanson {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 7.5vh;
 }
 
-.App-link {
-  color: #61dafb;
+/* HOME PAGE  */
+
+.homeOptions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.homeLeft {
+  padding-top: 7.5vh;
+  height: 100vh;
+  background-image: url(./images/kanyehands.webp);
+  background-size: cover;
+  text-decoration: none;
+  color: #000;
+}
+
+.homeRight {
+  padding-top: 7.5vh;
+  height: 100vh;
+  background-image: url(./images/swanson.png);
+  background-size: cover;
+  text-decoration: none;
+  color: #fff;
+}
+
+.homeOptions a:hover {
+  text-decoration: none;
+}
+
+/* cards  */
+.card {
+  text-align: center;
+  margin: 0% 30% 4% 30%;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.date-text {
+  padding: 1% 0 10% 0;
+}
+
+.btn {
+  margin: 10% 0 0 0;
+}
+
+.card-body {
+  padding: 2% 10% 2% 10%;
+}
+
+
+/* FOOTER  */
+.footer {
+  background-color: darkgray;
+}
+
+.nav-item {
+  margin: 1%;
+}
+
+.social-icon {
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+.social-icon:hover {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* RESPONSIVE  */
+
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 4% 15% 4% 15%;
   }
-  to {
-    transform: rotate(360deg);
+  .card-title {
+    font-size: 1.9em;
+  }
+  .card-subtitle {
+    font-size: 1.7em
+  }
+  .card-body {
+    font-size: .8em;
   }
 }
+
