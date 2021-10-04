@@ -12,7 +12,7 @@ function Navigation() {
               Quotes
             </Navbar.Brand>
             <Link to="/kanye">Kanye West</Link>
-            <Link to="//swanson">Ron Swanson</Link>
+            <Link to="/swanson">Ron Swanson</Link>
           </Navbar>
         </div>
     );
