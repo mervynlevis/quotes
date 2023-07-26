@@ -2,6 +2,7 @@
   "name": "quotes",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://mervynlevis.github.io/quotes/",
   "engines": {
     "node": "v14.17.0"
   },
