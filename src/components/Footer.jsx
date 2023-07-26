@@ -32,6 +32,7 @@ function Footer() {
         </a>
       </p>
       <p>Mervyn Levis {year}</p>
+      <p>Hi!</p>
     </div>
   );
 }
