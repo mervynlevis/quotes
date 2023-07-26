@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbc0de1a.css",
-    "main.js": "/static/js/main.a5654b0f.js",
-    "static/js/787.90e4196a.chunk.js": "/static/js/787.90e4196a.chunk.js",
-    "static/media/swanson.png": "/static/media/swanson.c8fbf217fdc1e9142d09.png",
-    "static/media/kanyehands.webp": "/static/media/kanyehands.578ddb47157ff961534a.webp",
-    "index.html": "/index.html",
-    "main.bbc0de1a.css.map": "/static/css/main.bbc0de1a.css.map",
-    "main.a5654b0f.js.map": "/static/js/main.a5654b0f.js.map",
-    "787.90e4196a.chunk.js.map": "/static/js/787.90e4196a.chunk.js.map"
+    "main.css": "/quotes/static/css/main.9f4c3cf0.css",
+    "main.js": "/quotes/static/js/main.b6f2d95b.js",
+    "static/js/787.90e4196a.chunk.js": "/quotes/static/js/787.90e4196a.chunk.js",
+    "static/media/swanson.png": "/quotes/static/media/swanson.c8fbf217fdc1e9142d09.png",
+    "static/media/kanyehands.webp": "/quotes/static/media/kanyehands.578ddb47157ff961534a.webp",
+    "index.html": "/quotes/index.html",
+    "main.9f4c3cf0.css.map": "/quotes/static/css/main.9f4c3cf0.css.map",
+    "main.b6f2d95b.js.map": "/quotes/static/js/main.b6f2d95b.js.map",
+    "787.90e4196a.chunk.js.map": "/quotes/static/js/787.90e4196a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbc0de1a.css",
-    "static/js/main.a5654b0f.js"
+    "static/css/main.9f4c3cf0.css",
+    "static/js/main.b6f2d95b.js"
   ]
 }
